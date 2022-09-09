@@ -26,3 +26,4 @@ cd 下载/Clash\ for\ Windows-0.19.29-x64-linux/
 ./cfw
 ```
 
+这个目前还有点问题，先不要使用
