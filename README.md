@@ -21,8 +21,8 @@ https://docs.px4.io/main/en/dev_setup/dev_env_linux_ubuntu.html
 # ubuntu下科学上网
 配置参考https://portal.shadowsocks.nz/login 
 具体使用  
-、、、
+```
 cd 下载/Clash\ for\ Windows-0.19.29-x64-linux/  
 ./cfw
+```
 
-、、、
