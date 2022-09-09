@@ -19,5 +19,5 @@ https://docs.px4.io/main/en/dev_setup/dev_env_linux_ubuntu.html
 目前已经修改为不需要使用mavros，参考zzy的px4_bridge修改当前的fsm，在它的基础上移植flag_fsm的功能（定点，定高）
 
 # ubuntu下科学上网
-参考https://portal.shadowsocks.nz/login 
-
+配置参考https://portal.shadowsocks.nz/login 
+具体使用  
