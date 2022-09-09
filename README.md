@@ -6,6 +6,14 @@ chmod a+rw /dev/ttyUSB0 #只要不拔出串口一般就能一直使用，参考h
 # 飞机改进
 飞机目前仍太重，NUC外壳可以去掉，同时保护壳可以改为亚克力板  
 # 飞控固件
-
+飞控固件目前已经修改，参考了zzy的修改，同时也要具备自己修改，编译飞控固件的能力，飞控目前版本固件源码已经上传github，编译方法参考  
+https://docs.px4.io/main/en/dev_setup/dev_env_linux_ubuntu.html  
 
 # 飞行控制
+目前飞行控制已经改为MPC控制，控制频率为100hz，预测为0.1 ~ 0.5时刻的五个点，具体代码已经上传github
+
+# slam
+目前slam运行稳定，定点飞行效果不错
+
+# 状态机
+目前已经修改为不需要使用mavros，参考zzy的px4_bridge修改当前的fsm，在它的基础上移植flag_fsm的功能（定点，定高）
