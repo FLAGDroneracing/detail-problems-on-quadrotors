@@ -29,3 +29,6 @@ cd 下载/Clash\ for\ Windows-0.19.29-x64-linux/
 ```
 
 这个目前还有点问题，先不要使用
+
+# fatal error: Eigen/Core: 没有那个文件或目录
+sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen
