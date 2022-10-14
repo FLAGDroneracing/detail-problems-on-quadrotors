@@ -32,10 +32,10 @@ cd 下载/Clash\ for\ Windows-0.19.29-x64-linux/
 
 # fatal error: Eigen/Core: 没有那个文件或目录
 sudo ln -s /usr/include/eigen3/Eigen /usr/include/Eigen
-
+```
 #load_px4_gazebo
 export FIRMWARE_DIR=~/PX4_tools/PX4-Autopilot #path_to_Firmware是你的firmware路径，如~/PX4_tools/PX4-Autopilot
 source $FIRMWARE_DIR/Tools/setup_gazebo.bash $FIRMWARE_DIR $FIRMWARE_DIR/build/posix_sitl_default
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$FIRMWARE_DIR
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$FIRMWARE_DIR/Tools/sitl_gazebo
-
+```
